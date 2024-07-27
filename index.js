@@ -30,5 +30,5 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
 
 app.get( '/' , (req,res) => {
-    req.send("<h1>This is our homepage</h1>");
+    res.send("<h1>This is our homepage</h1>");
 });
